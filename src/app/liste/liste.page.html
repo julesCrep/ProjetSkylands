@@ -11,5 +11,23 @@
     </ion-toolbar>
   </ion-header>
 
-  
+  <div *ngFor="let skylander of listeSkylanders">
+    <ion-row>
+      <ion-col>
+        <ion-card>
+
+          <ion-card-header>
+            <ion-card-title>{{ skylander.nom }}</ion-card-title>
+          </ion-card-header>
+
+          <ion-card-content>
+            <img [src]="skylander.image" sizes="10">
+            <p>{{ skylander.espece }}</p>
+            <p>{{ skylander.role }}</p>
+            <img [src]="skylander.element" sizes="3">
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </div>
 </ion-content>
