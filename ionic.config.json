@@ -1,0 +1,7 @@
+{
+  "name": "ProjetSkylands",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
