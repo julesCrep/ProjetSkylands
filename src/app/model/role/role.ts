@@ -1,10 +1,11 @@
 export enum Role {
-    Skylander,
-    Senseï,
-    Maraudeur,
-    SuperChargers,
-    Géant,
-    Swap_Force,
-    Trap_Masters,
-    Mini_Skylanders
+    Skylander = "Skylander",
+    Senseï = "Senseï",
+    Maraudeur = "Maraudeur",
+    SuperChargers = "SuperChargers",
+    Géant = "Géant",
+    Swap_Force = "Swap Force",
+    Trap_Masters = "Trap Masters",
+    Mini_Skylanders = "Mini Skylanders",
+    None = "None"
 }
