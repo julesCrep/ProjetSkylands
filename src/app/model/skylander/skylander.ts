@@ -3,11 +3,11 @@ import { Role } from "../role/role";
 
 export class Skylander {
 
-    nom : string = "";
-    espece : string ="";
-    element : Element = Element.Air;
-    role : Role = Role.Skylander;
-    image : string = "";
+    Nom : string = "";
+    Espece : string ="";
+    Element : Element = Element.Air;
+    Role : Role = Role.Skylander;
+    Image : string = "";
 
     constructor(
         nom : string,
@@ -16,11 +16,11 @@ export class Skylander {
         role : string,
         image : string
     ){
-        this.nom = nom;
-        this.espece = espece;
-        this.element = this.determinerElement(element);
-        this.role = this.determinerRole(role);
-        this.image = image;
+        this.Nom = nom;
+        this.Espece = espece;
+        this.Element = this.determinerElement(element);
+        this.Role = this.determinerRole(role);
+        this.Image = image;
     }
 
     determinerElement(element : string) : Element{
